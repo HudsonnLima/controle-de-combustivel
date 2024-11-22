@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Aplica o formato esperado
     if (value.length > 0) {
-      value = value.substring(0, 8); // Limita a 8 caracteres
+      value = value.substring(0, 7); // Limita a 8 caracteres
 
       let formattedValue = "";
       for (let i = 0; i < value.length; i++) {
